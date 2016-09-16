@@ -45,7 +45,7 @@ casper.test.begin('Molaa Login Page', function(test){
   // casper.waitForSelector("input#user",
   //     function success() {
   //
-  //         this.sendKeys("input#user", "molaa");
+  //         this.sendKeys("input#user", "");
   //     },
   //     function fail() {
   //         test.assertExists("input#user");
@@ -54,7 +54,7 @@ casper.test.begin('Molaa Login Page', function(test){
   // casper.waitForSelector("input#password",
   //     function success() {
   //
-  //         this.sendKeys("input#password", "molaa");
+  //         this.sendKeys("input#password", "");
   //     },
   //     function fail() {
   //         test.assertExists("input#password");
@@ -70,15 +70,15 @@ casper.test.begin('Molaa Login Page', function(test){
 
 
   // casper.then(function(){
-    // this.sendKeys('input[id=user]', 'molaa');
-    // this.sendKeys('input[id=password]', 'molaa');
+    // this.sendKeys('input[id=user]', '');
+    // this.sendKeys('input[id=password]', '');
     // this.click("#login");
   //   this.echo('Evaluating script');
   //   this.evaluate(function(user, pass){
   //     window.$('input#user').val(user);
   //     window.$('input#password').val(pass);
   //     window.$('button#login').click();
-  //   }, 'molaa', 'molaa');
+  //   }, '', '');
   // });
   //
   //   this.waitForSelector(
